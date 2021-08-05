@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth !important; }
+
+#header {
+  background: transparent !important;
+  border: none !important;
+  z-index: 10;
+  position: relative; }
+  #header nav {
+    background: transparent !important;
+    border: none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+    #header nav .nav-wrapper {
+      border: none; }
+      #header nav .nav-wrapper ul {
+        margin-left: 70px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        width: 90%; }
+        #header nav .nav-wrapper ul li a {
+          font-size: 13px; }
+          #header nav .nav-wrapper ul li a img {
+            width: 200px;
+            height: 40px;
+            margin-top: 10px; }
+        #header nav .nav-wrapper ul li a:hover {
+          background: #B78735 !important; }
+        #header nav .nav-wrapper ul a.hire {
+          background: #B78735;
+          margin-top: 15px;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s; }
+        #header nav .nav-wrapper ul a.hire:hover {
+          background: #fff;
+          margin-top: 15px;
+          border: 1px solid #B78735;
+          -webkit-transition: 0.3s;
+          -o-transition: 0.3s;
+          transition: 0.3s;
+          color: #B78735; }
+
+.sidenav {
+  background: #B78735 !important; }
+  .sidenav .user-view .name, .sidenav .sidenav .user-view .email {
+    color: #000 !important; }
+  .sidenav li a {
+    color: #fff !important; }
+  .sidenav li#first {
+    height: 100px !important; }
+    .sidenav li#first a {
+      background: #333 !important;
+      height: inherit !important; }
+      .sidenav li#first a img {
+        padding-top: 20px; }
+
+* {
+  font-family: 'Poppins', sans-serif; }
+
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 3px; }
+
+body::-webkit-scrollbar-thumb {
+  background: #B78735;
+  border-radius: 3px; }
+
+div.sidenav-overlay {
+  left: 300px !important; }
+
+@media screen and (max-width: 993px) {
+  #header {
+    background: #B78735 !important;
+    position: fixed !important; } }
